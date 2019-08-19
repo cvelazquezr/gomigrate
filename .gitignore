@@ -1,0 +1,6 @@
+# Ignored folders
+data/
+.idea/
+
+# Ignored Files
+.DS_Store
