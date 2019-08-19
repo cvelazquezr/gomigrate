@@ -155,7 +155,7 @@ func extractRules(pathRepository string) {
 }
 
 func main() {
-	csvFile, _ := os.Open("repositories_existence.csv")
+	csvFile, _ := os.Open("repositories.csv")
 	reader := csv.NewReader(bufio.NewReader(csvFile))
 	directory := "data/"
 	url := "https://github.com/"
